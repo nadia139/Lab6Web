@@ -5,7 +5,7 @@
 <img width="1489" height="196" alt="Screenshot 2025-10-27 134030" src="https://github.com/user-attachments/assets/8fce6641-29da-4ad6-880b-78640789f157" />
 
 STRUKTUR UTAMA
-1. DOCTYPE & HTML Setup
+# 1. DOCTYPE & HTML Setup
 <!DOCTYPE html>
 <html lang="id">
   
@@ -13,7 +13,7 @@ STRUKTUR UTAMA
 DOCTYPE: Mendeklarasikan dokumen HTML5
 lang="id": Bahasa Indonesia untuk aksesibilitas dan SEO
   
-2. Head Section
+# 2. Head Section
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Layout Sederhana</title>
@@ -25,7 +25,7 @@ Viewport: Responsive design untuk mobile
 Bootstrap 5.3.0: Framework CSS untuk styling
   
   STYLING CUSTOM
-3. Warna dan Layout
+# 3. Warna dan Layout
 .navbar-custom { background-color: #f1129f; }
 .circle-orange { background-color: #6fe8ea; }
 .circle-blue { background-color: #e043ce; }
@@ -35,7 +35,7 @@ Bootstrap 5.3.0: Framework CSS untuk styling
 Warna cerah dan kontras untuk visual menarik
 Kombinasi pink, biru, hijau untuk variasi
   
-4. Komponen Visual
+# 4. Komponen Visual
 css
 .circle-orange, .circle-blue, .circle-teal {
     width: 120px; height: 120px;
@@ -46,7 +46,7 @@ css
 }
 
   STRUKTUR KOMPONEN
-5. Header & Navigation
+# 5. Header & Navigation
 html
 <header class="bg-light p-3">
     <h4 class="text-muted mb-0">Layout Sederhana</h4>
@@ -64,12 +64,12 @@ html
 Header: Judul website
 Navbar: Menu navigasi dengan warna custom pink
 
-6. Main Content Area
+# 6. Main Content Area
 Layout menggunakan sistem grid Bootstrap:
 col-lg-9: Konten utama (75% lebar)
 col-lg-3: Sidebar widget (25% lebar)
 
-7. Hero Section
+# 7. Hero Section
 html
 <section class="p-4">
     <h2>Hello Nadia!</h2>
@@ -81,7 +81,7 @@ html
 Sambutan personal "Hello Nadia!"
 Call-to-action button dengan styling Bootstrap
 
-8. Feature Circles Section
+# 8. Feature Circles Section
 html
 <div class="row text-center">
     <div class="col-md-4 mb-4">
@@ -97,7 +97,7 @@ html
 3 lingkaran berwarna dengan konten
 Responsive: col-md-4 (3 kolom di desktop, stack di mobile)
 
-9. Featurette Sections
+# 9. Featurette Sections
 <section class="p-4">
     <h4>First featurette heading.</h4>
     <div class="row align-items-center">
@@ -114,7 +114,7 @@ Responsive: col-md-4 (3 kolom di desktop, stack di mobile)
 Layout alternatif: gambar-kiri teks-kanan dan sebaliknya
 align-items-center: Vertikal alignment tengah
 
-10. Sidebar Widgets
+# 10. Sidebar Widgets
 <div class="widget-header">Widget Header</div>
 <div class="widget-body">
     <a href="#" class="widget-link">Widget Link</a>
@@ -126,7 +126,7 @@ Widget dengan header berwarna biru
 List link dengan border bottom
 Widget text untuk konten statis
 
-11. Footer
+# 11. Footer
 html
 <footer>
     <p class="mb-0">© 2025 - Universitas Pelita Bangsa</p>
@@ -137,7 +137,7 @@ Copyright info dengan latar hitam
 Tema pendidikan: Menyebut Universitas Pelita Bangsa
 
 FITUR RESPONSIVE
-12. Grid System Bootstrap
+# 12. Grid System Bootstrap
 html
 <div class="row">
     <div class="col-lg-9">...</div>
@@ -148,7 +148,7 @@ html
 lg breakpoint: Sidebar hilang di layar kecil
 md breakpoint: Feature circles menjadi 1 kolom
 
-13. Mobile-Friendly
+# 13. Mobile-Friendly
 Viewport meta tag
 Fluid containers dengan max-width
 Padding dan margin yang adaptif
