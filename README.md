@@ -8,7 +8,8 @@ STRUKTUR UTAMA
 1. DOCTYPE & HTML Setup
 <!DOCTYPE html>
 <html lang="id">
-  penjelasan
+  
+  # penjelasan
 DOCTYPE: Mendeklarasikan dokumen HTML5
 lang="id": Bahasa Indonesia untuk aksesibilitas dan SEO
   
@@ -17,7 +18,8 @@ lang="id": Bahasa Indonesia untuk aksesibilitas dan SEO
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Layout Sederhana</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-  penjeasan
+
+# penjelasan 
 UTF-8: Support karakter internasional
 Viewport: Responsive design untuk mobile
 Bootstrap 5.3.0: Framework CSS untuk styling
@@ -29,6 +31,7 @@ Bootstrap 5.3.0: Framework CSS untuk styling
 .circle-blue { background-color: #e043ce; }
 .circle-teal { background-color: #5df4f1; }
 .feature-img { background-color: #48f197; }
+# penjelasan 
 Warna cerah dan kontras untuk visual menarik
 Kombinasi pink, biru, hijau untuk variasi
   
@@ -56,8 +59,9 @@ html
         <!-- ... -->
     </ul>
 </nav>
-Header: Judul website
 
+# penjelasan 
+Header: Judul website
 Navbar: Menu navigasi dengan warna custom pink
 
 6. Main Content Area
@@ -72,8 +76,9 @@ html
     <p>Lorem ipsum dolor sit amet...</p>
     <a href="#" class="btn btn-primary">Learn more »</a>
 </section>
-Sambutan personal "Hello Nadia!"
 
+# penjelasan 
+Sambutan personal "Hello Nadia!"
 Call-to-action button dengan styling Bootstrap
 
 8. Feature Circles Section
@@ -87,6 +92,8 @@ html
     </div>
     <!-- 2 circle lainnya -->
 </div>
+
+# penjelasan 
 3 lingkaran berwarna dengan konten
 Responsive: col-md-4 (3 kolom di desktop, stack di mobile)
 
@@ -102,8 +109,9 @@ Responsive: col-md-4 (3 kolom di desktop, stack di mobile)
         </div>
     </div>
 </section>
-Layout alternatif: gambar-kiri teks-kanan dan sebaliknya
 
+# penjelasan 
+Layout alternatif: gambar-kiri teks-kanan dan sebaliknya
 align-items-center: Vertikal alignment tengah
 
 10. Sidebar Widgets
@@ -112,6 +120,8 @@ align-items-center: Vertikal alignment tengah
     <a href="#" class="widget-link">Widget Link</a>
     <!-- ... -->
 </div>
+
+# penjelasan 
 Widget dengan header berwarna biru
 List link dengan border bottom
 Widget text untuk konten statis
@@ -121,6 +131,8 @@ html
 <footer>
     <p class="mb-0">© 2025 - Universitas Pelita Bangsa</p>
 </footer>
+
+# penjelasan 
 Copyright info dengan latar hitam
 Tema pendidikan: Menyebut Universitas Pelita Bangsa
 
@@ -131,6 +143,8 @@ html
     <div class="col-lg-9">...</div>
     <div class="col-lg-3">...</div>
 </div>
+
+# penjelasan 
 lg breakpoint: Sidebar hilang di layar kecil
 md breakpoint: Feature circles menjadi 1 kolom
 
