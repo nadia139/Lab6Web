@@ -11,6 +11,7 @@ STRUKTUR UTAMA
   penjelasan
 DOCTYPE: Mendeklarasikan dokumen HTML5
 lang="id": Bahasa Indonesia untuk aksesibilitas dan SEO
+  
 2. Head Section
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,7 @@ lang="id": Bahasa Indonesia untuk aksesibilitas dan SEO
 UTF-8: Support karakter internasional
 Viewport: Responsive design untuk mobile
 Bootstrap 5.3.0: Framework CSS untuk styling
+  
   STYLING CUSTOM
 3. Warna dan Layout
 .navbar-custom { background-color: #f1129f; }
@@ -29,6 +31,7 @@ Bootstrap 5.3.0: Framework CSS untuk styling
 .feature-img { background-color: #48f197; }
 Warna cerah dan kontras untuk visual menarik
 Kombinasi pink, biru, hijau untuk variasi
+  
 4. Komponen Visual
 css
 .circle-orange, .circle-blue, .circle-teal {
@@ -38,6 +41,7 @@ css
 .feature-img {
     height: 150px; /* Kotak feature placeholder */
 }
+
   STRUKTUR KOMPONEN
 5. Header & Navigation
 html
@@ -55,10 +59,12 @@ html
 Header: Judul website
 
 Navbar: Menu navigasi dengan warna custom pink
+
 6. Main Content Area
 Layout menggunakan sistem grid Bootstrap:
 col-lg-9: Konten utama (75% lebar)
 col-lg-3: Sidebar widget (25% lebar)
+
 7. Hero Section
 html
 <section class="p-4">
@@ -69,6 +75,7 @@ html
 Sambutan personal "Hello Nadia!"
 
 Call-to-action button dengan styling Bootstrap
+
 8. Feature Circles Section
 html
 <div class="row text-center">
@@ -98,6 +105,7 @@ Responsive: col-md-4 (3 kolom di desktop, stack di mobile)
 Layout alternatif: gambar-kiri teks-kanan dan sebaliknya
 
 align-items-center: Vertikal alignment tengah
+
 10. Sidebar Widgets
 <div class="widget-header">Widget Header</div>
 <div class="widget-body">
@@ -107,6 +115,7 @@ align-items-center: Vertikal alignment tengah
 Widget dengan header berwarna biru
 List link dengan border bottom
 Widget text untuk konten statis
+
 11. Footer
 html
 <footer>
@@ -114,6 +123,7 @@ html
 </footer>
 Copyright info dengan latar hitam
 Tema pendidikan: Menyebut Universitas Pelita Bangsa
+
 FITUR RESPONSIVE
 12. Grid System Bootstrap
 html
@@ -123,6 +133,7 @@ html
 </div>
 lg breakpoint: Sidebar hilang di layar kecil
 md breakpoint: Feature circles menjadi 1 kolom
+
 13. Mobile-Friendly
 Viewport meta tag
 Fluid containers dengan max-width
