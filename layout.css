@@ -1,0 +1,87 @@
+ body {
+            background-color: #e9ecef;
+        }
+        .main-container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .navbar-custom {
+            background-color: #f1129f;
+        }
+        .navbar-custom .nav-link {
+            color: white !important;
+        }
+        .circle-orange {
+            background-color: #6fe8ea;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            margin: 0 auto 15px;
+        }
+        .circle-blue {
+            background-color: #e043ce;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            margin: 0 auto 15px;
+        }
+        .circle-teal {
+            background-color: #5df4f1;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            margin: 0 auto 15px;
+        }
+        .feature-img {
+            background-color: #48f197;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 15px;
+        }
+        .widget-header {
+            background-color: #2b7cc3;
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+        .widget-body {
+            background-color: #f8f9fa;
+            padding: 15px;
+        }
+        .widget-link {
+            display: block;
+            padding: 8px 0;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #2ab277;
+        }
+        .widget-link:last-child {
+            border-bottom: none;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
